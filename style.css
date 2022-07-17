@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.image{
+    position: absolute;
+    z-index: -1;
+    background-image: url('./images/1.avif') ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter:blur(0px);
+}
+
+.percent{
+    z-index: 1;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+}
